@@ -82,7 +82,7 @@ void nextgen() {
 
             for (int o = -3; o <= 3; o++) {                            // creating 7x7 window around each coloured cell
               for (int p = -3; p <= 3; p++) {
-              
+              // TODO: Review this section
                 try {
                   if (cells[i+o][j+p] != grey && cells[i+o][j+p] != white  && (pow(o, 2) + pow(p, 2)) != 0) {        //finds coloured cell in 7x7 window that's not the original coloured cell
                     if (pow(o, 2) + pow(p, 2) == 1 || pow(o, 2) + pow(p, 2) == 2) {                                  //finds if new coloured cell is touching the original cell
