@@ -27,6 +27,7 @@ color red = color(255, 0, 0);
 color white = color(255);
 color grey = color(173);
 
+// colors of cars
 color[] colors = {blue, red, purple, black};
 
 boolean fast = false;
